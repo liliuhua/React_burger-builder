@@ -7,7 +7,7 @@ import Modal from '../../components/UI/Modal/Modal';
 import OrderSummary from '../../components/Burger/OrderSummary/OrderSummary';
 
 const INGREDIENT_PRICES = {
-    salad: 0.5,
+    salad: 0.6,
     cheese: 0.4,
     meat: 1.3,
     bacon: 0.7
