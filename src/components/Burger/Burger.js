@@ -5,6 +5,7 @@ import BurgerIngredient from "./BurgerIngredient/BurgerIngredient";
 
 
 const burger = (props) => {
+    console.log(props)
     // transform object to array, keys return a array
     // for example contain a string salad, bacon and so on.
     //values are not part of the array
