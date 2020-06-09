@@ -12,5 +12,6 @@ export { purchaseBurger,
 export {
     auth,
     logout,
-    setAuthRedirectPath
+    setAuthRedirectPath,
+    authCheckState
 }from './auth';
