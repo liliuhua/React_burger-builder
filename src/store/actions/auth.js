@@ -56,7 +56,7 @@ export const auth = (email, password, isSignup) => {
         }
         axios.post(url, authData)
             .then(response => {
-                console.log(response);
+                // console.log(response);
                 //can call setItem on it to store an item in the local storage
                 // *1000 because javascript time work in milliseconds and the time we got was in seconds
                 const expirationDate = new Date(new Date().getTime() + response.data.expiresIn * 1000);
